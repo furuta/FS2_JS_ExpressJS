@@ -16,6 +16,7 @@ var users = {
 };
 
 // Routing
+//Normally, name and password are not passed with the GET method, but implemented according to the sample of the task
 appServer.get(
   "/data",
   function checkIfAllowed(req, res, next) {
